@@ -1,4 +1,4 @@
-# PokerDice
+# Poker Dice Game
 
 <h2>Le Poker d'as et ses règles</h2>
 Le Poker d'as se joue avec 5 dés, les dés correspondent à des cartes
