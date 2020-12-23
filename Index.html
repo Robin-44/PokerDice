@@ -1,0 +1,155 @@
+<!Doctype HTML>
+<html lang="fr">
+
+<head>
+    <title>&#127922; Poker d'as &#127922;</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <SCRIPT type="text/javascript" src="script.js"></SCRIPT>
+</head>
+
+<body>
+    <h1>Bienvenue et bonne partie</h1>
+    <main>
+        <section>
+            <h2>Dés</h2>
+            <div class="container">
+                <table>
+                    <tr>
+                        <td id="dice1" class="dice"><img src="pict/1_dice.jpg" alt="face1"></td>
+                        <td id="select1"><button onClick="index ('dice1'); hide('select1', 'dice1');">Garder</button></td>
+                    </tr>
+                    <tr>
+                        <td id="dice2" class="dice"><img src="pict/1_dice.jpg" alt="face1"></td>
+                        <td id="select2"><button onClick="index ('dice2'); hide('select2', 'dice2');">Garder</button></td>
+                    </tr>
+                    <tr>
+                        <td id="dice3" class="dice"><img src="pict/1_dice.jpg" alt="face1"></td>
+                        <td id="select3"><button onClick="index ('dice3'); hide('select3', 'dice3');">Garder</button></td>
+                    </tr>
+                    <tr>
+                        <td id="dice4" class="dice"><img src="pict/1_dice.jpg" alt="face1"></td>
+                        <td id="select4"><button onClick="index ('dice4'); hide('select4', 'dice4');">Garder</button></td>
+                    </tr>
+                    <tr>
+                        <td id="dice5" class="dice"><img src="pict/1_dice.jpg" alt="face1"></td>
+                        <td id="select5"><button onClick="index ('dice5'); hide('select5', 'dice5');">Garder</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="container">
+                <button onClick="roll_dice ();">Lancer</button>
+                <button onClick="javascript:document.location.href='Index.html'">Réinitialiser</button>
+            </div>
+        </section>
+        <section>
+            <h2>Score</h2>
+            <div class="container">
+                <table>
+                    <tr>
+                        <th>Valeur des dés</th>
+                        <td>Nombre</td>
+                    </tr>
+                    <tr>
+                        <td class="scoreboard">As</td>
+                        <td class="scoreboard" id="as">0</td>
+                    </tr>
+                    <tr>
+                        <td class="scoreboard">Roi</td>
+                        <td class="scoreboard" id="roi">0</td>
+                    </tr>
+                    <tr>
+                        <td class="scoreboard">Reine</td>
+                        <td class="scoreboard" id="reine">0</td>
+                    </tr>
+                    <tr>
+                        <td class="scoreboard">Valet</td>
+                        <td class="scoreboard" id="valet">0</td>
+                    </tr>
+                    <tr>
+                        <td class="scoreboard">10</td>
+                        <td class="scoreboard" id="dix">0</td>
+                    </tr>
+                    <tr>
+                        <td class="scoreboard">9</td>
+                        <td class="scoreboard" id="neuf">0</td>
+                    </tr>
+                    <tr>
+                        <th>Combinaisons</th>
+                        <td>Score</td>
+                    </tr>
+                    <tr>
+                        <td class="scoreboard">Paire</td>
+                        <td class="scoreboard" id="paire">0</td>
+                    </tr>
+                    <tr>
+                        <td class="scoreboard">Double paire</td>
+                        <td class="scoreboard" id="double_paire">0</td>
+                    </tr>
+                    <tr>
+                        <td class="scoreboard">Petite suite</td>
+                        <td class="scoreboard" id="petite_suite">0</td>
+                    </tr>
+                    <tr>
+                        <td class="scoreboard">Brelan</td>
+                        <td class="scoreboard" id="brelan">0</td>
+                    </tr>
+                    <tr>
+                        <td class="scoreboard">Grande suite</td>
+                        <td class="scoreboard" id="grande_suite">0</td>
+                    </tr>
+                    <tr>
+                        <td class="scoreboard">Full</td>
+                        <td class="scoreboard" id="full">0</td>
+                    </tr>
+                    <tr>
+                        <td class="scoreboard">Carré</td>
+                        <td class="scoreboard" id="carré">0</td>
+                    </tr>
+                    <tr>
+                        <td class="scoreboard">Poker</td>
+                        <td class="scoreboard" id="poker">0</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td><strong><span id="total_pts"></span></strong></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <h2>Le Poker d'as et ses règles</h2>
+            Le Poker d'as se joue avec 5 dés, les dés correspondent à des cartes
+            <table>
+                <tr>
+                    <td class="rules"><img class="rules_img" src="pict/1_dice.jpg" alt="face1"><img class="rules_img" src="pict/1_card.jpg" alt="card1"></td>
+                    <td class="rules"><img class="rules_img" src="pict/2_dice.jpg" alt="face2"><img class="rules_img" src="pict/2_card.jpg" alt="card2"></td>
+                    <td class="rules"><img class="rules_img" src="pict/3_dice.jpg" alt="face3"><img class="rules_img" src="pict/3_card.jpg" alt="card3"></td>
+                    <td class="rules"><img class="rules_img" src="pict/4_dice.jpg" alt="face4"><img class="rules_img" src="pict/4_card.jpg" alt="card4"></td>
+                    <td class="rules"><img class="rules_img" src="pict/5_dice.jpg" alt="face5"><img class="rules_img" src="pict/5_card.jpg" alt="card5"></td>
+                    <td class="rules"><img class="rules_img" src="pict/6_dice.jpg" alt="face6"><img class="rules_img" src="pict/6_card.jpg" alt="card6"></td>
+                </tr>
+            </table>
+            <h3>Les combinaisons</h3>
+            <ul>
+                <li>05 pts : La <strong>Paire</strong> : deux dés identiques</li>
+                <li>10 pts : La <strong>Double paire</strong> : deux paires</li>
+                <li>15 pts : La <strong>Petite suite</strong> : 9, 10, Valet, Reine, Roi</li>
+                <li>20 pts : Le <strong>Brelan</strong> : trois dés identiques</li>
+                <li>25 pts : La <strong>Grande suite</strong> : 10, Valet, Reine, Roi, As</li>
+                <li>30 pts : Le <strong>Full</strong> : Brelan + Paire</li>
+                <li>35 pts : Le <strong>Carré</strong> : quatre dés identiques</li>
+                <li>50 pts : Le <strong>Poker</strong> : cinq dés identiques</li>
+            </ul>
+
+            <h3>Informations générales</h3>
+            <ul>
+                <li><strong>Nombre de dés : </strong>5</li>
+                <li><strong>Nombre de tours : </strong>1</li>
+                <li><strong>Nombre de lancers max : </strong>3</li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>

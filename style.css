@@ -1,0 +1,107 @@
+*
+{
+    background-color: #FFFFFF;
+    color: black;
+    font-family: 'arial', sans-serif;
+    font-size: medium;
+    text-align: justify;
+}
+
+h1
+{
+	text-align: center;
+}
+
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+section
+{
+    width: auto;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+
+h2
+{
+	text-align: center;
+}
+
+img
+{
+	width: 40px;
+	height: auto;
+}
+
+input
+{
+	background-color:#F4F3F3;
+    padding : 3px;
+    border : 1px solid grey;
+    border-radius : 5px;
+    box-shadow : 1px 1px 2px #C0C0C0 inset;
+}
+
+button
+{
+    background-color: #e7e7e7;
+    color: black;
+    border-radius: 8px;
+    border: 2px solid grey;
+}
+
+button:hover
+{
+    background-color: #f8f8f8;
+}
+
+
+td
+{
+	min-width: 30px; 
+}
+
+.dice, .card
+{
+	float: left;
+	width: 40px;
+	height: 56px;
+	padding: 3px;
+	text-align: center;
+	margin: 2px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scoreboard
+{
+	border: thin solid black;
+	width: auto;
+}
+
+.container
+{
+	display: flex;
+    justify-content: center;
+}
+
+.rules
+{
+	border: none;
+	width: 70px;
+}
+
+.rules_img
+{
+	float: left;
+	width: 20px;
+	height: auto;
+	margin: 1px;
+}
