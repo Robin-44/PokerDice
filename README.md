@@ -4,12 +4,12 @@
 Le Poker d'as se joue avec 5 dés, les dés correspondent à des cartes
 <table>
     <tr>
-        <td class="rules"><img class="rules_img" src="pict/1_dice.jpg" alt="face1"><img class="rules_img" src="pict/1_card.jpg" alt="card1"></td>
-        <td class="rules"><img class="rules_img" src="pict/2_dice.jpg" alt="face2"><img class="rules_img" src="pict/2_card.jpg" alt="card2"></td>
-        <td class="rules"><img class="rules_img" src="pict/3_dice.jpg" alt="face3"><img class="rules_img" src="pict/3_card.jpg" alt="card3"></td>
-        <td class="rules"><img class="rules_img" src="pict/4_dice.jpg" alt="face4"><img class="rules_img" src="pict/4_card.jpg" alt="card4"></td>
-        <td class="rules"><img class="rules_img" src="pict/5_dice.jpg" alt="face5"><img class="rules_img" src="pict/5_card.jpg" alt="card5"></td>
-        <td class="rules"><img class="rules_img" src="pict/6_dice.jpg" alt="face6"><img class="rules_img" src="pict/6_card.jpg" alt="card6"></td>
+        <td class="rules"><img class="rules_img" src="pict/1_dice.jpg" alt="face1" width="20" height="20"><img class="rules_img" src="pict/1_card.jpg" alt="card1" width="20" height="20"></td>
+        <td class="rules"><img class="rules_img" src="pict/2_dice.jpg" alt="face2" width="20" height="20"><img class="rules_img" src="pict/2_card.jpg" alt="card2" width="20" height="20"></td>
+        <td class="rules"><img class="rules_img" src="pict/3_dice.jpg" alt="face3" width="20" height="20"><img class="rules_img" src="pict/3_card.jpg" alt="card3" width="20" height="20"></td>
+        <td class="rules"><img class="rules_img" src="pict/4_dice.jpg" alt="face4" width="20" height="20"><img class="rules_img" src="pict/4_card.jpg" alt="card4" width="20" height="20"></td>
+        <td class="rules"><img class="rules_img" src="pict/5_dice.jpg" alt="face5" width="20" height="20"><img class="rules_img" src="pict/5_card.jpg" alt="card5" width="20" height="20"></td>
+        <td class="rules"><img class="rules_img" src="pict/6_dice.jpg" alt="face6" width="20" height="20"><img class="rules_img" src="pict/6_card.jpg" alt="card6" width="20" height="20"></td>
     </tr>
 </table>
 <h3>Les combinaisons</h3>
